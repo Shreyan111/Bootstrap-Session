@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>STC Weather Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./weather.css" />
+</head>
+
+<body>
+    <div class="container-fluid d-flex flex-wrap p-0" style="min-height: 100vh">
+        <div class="col-lg-3">
+            <div>
+                <form class="search-location d-flex justify-content-center">
+                    <input type="text" name="city" placeholder="Name of the city..." style="outline: none;"
+                        autocomplete="off" class="
+                text-muted
+                col-8
+                border border-top-0 border-right-0 border-left-0
+                mt-4
+                p-2
+              " />
+                </form>
+                <div class="left-card">
+                    <div class="card-top text-center my-5">
+                        <div class="my-3 city-name">
+                            <p style="font-size: 2rem;">Vellore</p>
+                        </div>
+                        <img src="./assets/sunny.svg" alt="" style="max-width: 180px" class="card-img-top" />
+                    </div>
+
+                    <div class="card-body">
+                        <div class="card-mid d-flex">
+                            <div class="col-7 text-center temp">
+                                <span style="font-size: 3em; letter-spacing: -2px;">30&deg;C</span>
+                            </div>
+                            <div class="col-5 mt-3 condition-temp">
+                                <p class="condition">Thunder Storm</p>
+                                <p class="high">30&deg;C</p>
+                                <p class="low">27&deg;C</p>
+                            </div>
+                        </div>
+                        <div class="icon-container card shadow mx-auto my-3">
+                            <img src="./assets/cloud.svg" class="mx-auto my-auto"  />
+                        </div>
+                        <div class="px-3 py-2 d-flex justify-content-center gap-2">
+                            <div class="text-center">
+                                <span>Feels Like</span>
+                                <span class="pr-2">30&deg;C</span>
+                            </div>
+                            <div class="text-center ml-4">
+                                <span>Humidity</span>
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9"></div>
+            </div>
+        </div>
+        <div class="col-lg-9">
+            
+        </div>
+    </div>
+
+</body>
+
+</html>
